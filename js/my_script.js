@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $("h2").addClass(".underline")
-    $("*").addClass ("border");
+    $("tr:nth-child(even)").addClass("crab_orange")
+    $("tr:nth-child(odd)").addClass ("ancient_pink");
 });
